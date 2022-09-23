@@ -11,3 +11,5 @@ let fucao = function(x: number, y:number): number {
 console.log("Anônima: O valor da soma é " + fucao(4,4));
 
 //Arrow function
+let seta = (x: number, y: number): number => {return x * y;};
+console.log("O valor da mulplicação é " + seta (2, 9));
