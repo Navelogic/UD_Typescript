@@ -1,2 +1,2 @@
-# UD_Typescript
+# Unidade de Typescript no Senac
  Repo para estudos de Typescript
