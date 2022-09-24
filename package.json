@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Navelogic/UD_Typescript/issues"
   },
-  "homepage": "https://github.com/Navelogic/UD_Typescript#readme"
+  "homepage": "https://github.com/Navelogic/UD_Typescript#readme",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
 }
