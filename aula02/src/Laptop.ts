@@ -17,7 +17,24 @@ class Lenovo extends Laptop{
   }
 }
 
-let computador = new Lenovo();
+interface Gamer {
+  memoriaVideo: number;
+}
 
+class LenovoGamer extends Laptop implements Gamer {
+  memoriaVideo: number;
+
+  constructor() {
+    super(21);
+  }
+
+  memoriadeVideo(memoriaVideo: number = 512) {
+    console.log(`A mémoria de vide é ${memoriaVideo}`);
+  }
+}
+
+let computador = new Lenovo();
+let computadorGamer = new LenovoGamer();
 computador.ligarMonitor();
 computador.aumentarBrilho(3);
+computadorGamer.memoriadeVideo();
