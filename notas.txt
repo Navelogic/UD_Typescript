@@ -3,6 +3,7 @@ Enums
 
 Any
 
+Interpolação
 
 *Ferramentas para verificar*
 /TSLINT => Não está mais em desenvolvimento.
