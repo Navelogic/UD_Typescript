@@ -12,3 +12,6 @@ Concat (Javascript)s
 *Ferramentas para verificar*
 /TSLINT => Não está mais em desenvolvimento.
 /ESLint
+
+Desafio para próxima aula //
+Uma página HTML quando você chamar, ela chama 6 números da megaSena.
