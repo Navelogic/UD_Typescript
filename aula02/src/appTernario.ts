@@ -4,3 +4,4 @@ let temMaisTitulos = function(titulos : number) : boolean{
 
 let numero = 8;
 console.log(`Ter ${numero} titulos é suficiente para passar o falmengo? ${temMaisTitulos(numero) ? 'Sim' : 'Não'}`);
+//Expresão Ternaria usada!
