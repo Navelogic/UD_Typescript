@@ -1,1 +1,3 @@
 Enums
+É um tipode onde podemos definir um conjunto de valores constanttes pré definidos.
+
