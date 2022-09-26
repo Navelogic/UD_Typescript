@@ -4,9 +4,20 @@ class Laptop {
     this.tela = tela;
   };
   ligarMonitor(){
-    console.log("O monitor foi ligado");
+    console.log(`O monitor de ${this.tela} polegadas foi ligado.`);
   };
 };
 
-let computador = new Laptop(21);
-console.log(computador.ligarMonitor);
+class Lenovo extends Laptop{
+  constructor(){
+    super(21);
+  }
+  aumentarBrilho(valor: number){
+    console.log(`Brilho subiu ${valor} pontos`);
+  }
+}
+
+let computador = new Lenovo();
+
+computador.ligarMonitor();
+computador.aumentarBrilho(3);
