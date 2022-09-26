@@ -5,6 +5,8 @@ Any
 
 Interpolação
 
+Operador Ternario
+
 *Ferramentas para verificar*
 /TSLINT => Não está mais em desenvolvimento.
 /ESLint
