@@ -2,3 +2,8 @@ Enums
 É um tipode onde podemos definir um conjunto de valores constanttes pré definidos.
 
 Any
+
+
+*Ferramentas para verificar*
+/TSLINT => Não está mais em desenvolvimento.
+/ESLint
