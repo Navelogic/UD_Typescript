@@ -14,4 +14,3 @@ function resolucaoProblema(){
   };
   return randomico;
 };
-console.log(resolucaoProblema());
