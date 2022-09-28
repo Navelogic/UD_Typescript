@@ -1,4 +1,4 @@
-class Laptop {
+export class Laptop {
   tela: number;
   constructor(tela: number){
     this.tela = tela;
@@ -9,6 +9,6 @@ class Laptop {
 };
 
 
-interface Gamer {
+export interface Gamer {
   memoriaVideo: number;
 };
