@@ -1,9 +1,9 @@
 import { Veiculo } from "./Veiculo";
 
 export class Caminhao extends Veiculo{
-  tamanhoCacamba: number;
+  tamanhoCacamba: number = 40;
 
-  constructor(tamanhoCacamba: number){
+  constructor(){
     super('Vermelho', 'Scania', 'V.18');
   };
 
