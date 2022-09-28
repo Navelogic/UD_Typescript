@@ -1,2 +1,1 @@
-import { Laptop } from "./computador-base";
-import { Gamer } from "./computador-base";
+import { Lenovo } from "./computador-base";
