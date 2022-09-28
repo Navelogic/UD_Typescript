@@ -15,4 +15,4 @@ Prototype (Javascript)
 /ESLint
 
 Desafio para próxima aula //
-Uma página HTML quando você chamar, ela chama 6 números da megaSena.
+Criar uma função que faça a mesma coisa que o indexOf, sem usar o indexOf.
