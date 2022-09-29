@@ -1,8 +1,8 @@
 function resolucaoProblema(){
-  let numMax = 6;
+  let numMax = 61;
   let randomico = [];
 
-  for(let i = 0; i <= 4; i++){
+  for(let i = 0; i <= 5; i++){
     let temporario = Math.floor(Math.random() * numMax);
 
     if((randomico.indexOf(temporario) == -1) && (temporario > 0))
