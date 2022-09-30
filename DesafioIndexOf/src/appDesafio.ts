@@ -15,7 +15,6 @@ console.log(indexOfPalavras("Teste03", "e"));
 
 // Segundo Teste FALHOU!//
 
-/*
 function indexOfNumeros(conjuntoDeNum, numero){
   let i = 0;
   while(i < conjuntoDeNum.length){
@@ -30,4 +29,3 @@ function indexOfNumeros(conjuntoDeNum, numero){
 console.log(indexOfNumeros(481, 8));
 console.log(indexOfNumeros(123456789, 7));
 console.log(indexOfNumeros(789456123, 2));
-*/
