@@ -2,11 +2,10 @@ export class Veiculo{
   cor: string;
   fabricante: string;
   modelo: string;
+  velocidade: number;
 
-  constructor(cor: string, fabricante: string, modelo:string){
-    this.cor = cor;
-    this.fabricante = fabricante;
-    this.modelo = modelo;
+  constructor(velocidade: number){
+    this.velocidade = velocidade;
   };
 
   acelerar(){
