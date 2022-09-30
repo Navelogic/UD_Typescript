@@ -6,4 +6,4 @@ let x: number = 2;
 let b: Buscar = new Buscar();
 let achei: boolean = b.existeValor(numeros, x);
 
-console.log(`Encontrou o valor? ${achei}`);
+console.log(`Encontrou o valor? ${(achei == false) ? 'Não' : 'Sim'}`);
