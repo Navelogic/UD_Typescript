@@ -1,2 +1,8 @@
 <AA6-cabecalho-component></AA6-cabecalho-component>
-{{title}} 
+{{nome}} 
+<div [class.light] = "aprovado" [hidden] = "!aprovado">
+  O aluno está APROVADO!
+</div>
+<div [hidden] = "aprovado">
+  O aluno está REPROVADO!
+</div>
