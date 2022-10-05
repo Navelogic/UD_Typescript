@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
 
 })
 export class AppComponent {
-  alunos = {nome: 'João do pé de feijão', aprovado: true};
-  title = 'AplicacaoAula06';
+  anaClara = {nome: 'Ana Clara', aprovado: true, escola: 'Senac'};
+  arian = {nome: 'Arian', aprovado: false, escola: 'Senac'};
+  nicolas = {nome: 'Nicolas', aprovado: true, escola: 'Senac'};
+  marcus = {nome: 'Marcus', aprovado: true, escola: 'Senac'};
 }
