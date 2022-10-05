@@ -7,8 +7,8 @@ import { Estudante } from './estudante.model';
   styleUrls: ['./estudantes.component.css']
 })
 export class EstudantesComponent implements OnInit {
-  @Input() estudante: Estudante;
-  
+  @Input()estudante!: Estudante;
+
 
   constructor() { }
 

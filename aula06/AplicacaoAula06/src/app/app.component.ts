@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Estudante } from './estudantes/estudante.model';
 
 @Component({
   selector: 'AA6-root',
@@ -6,8 +7,9 @@ import { Component } from '@angular/core';
 
 })
 export class AppComponent {
-  anaClara = {nome: 'Ana Clara', aprovado: true, escola: 'Senac'};
-  arian = {nome: 'Arian', aprovado: false, escola: 'Senac'};
-  nicolas = {nome: 'Nicolas', aprovado: true, escola: 'Senac'};
-  marcus = {nome: 'Marcus', aprovado: true, escola: 'Senac'};
+  estudantes: Estudante[] = [
+  {nome: 'Ana Clara', aprovado: true, escola: 'Senac'},
+  {nome: 'Arian', aprovado: false, escola: 'Senac'},
+  {nome: 'Nicolas', aprovado: true, escola: 'Senac'},
+  {nome: 'Marcus', aprovado: true, escola: 'Senac'}];
 }
