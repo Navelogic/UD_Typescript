@@ -6,8 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-
-  public title="Bem-Vindo!";
-  private teste="Esse é privado!";
-
 }
