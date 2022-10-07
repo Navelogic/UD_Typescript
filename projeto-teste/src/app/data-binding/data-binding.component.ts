@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
 
   public nome: string = "Navelogic";
-  public idade: number = 29;
+  public idade: number = 20;
 
   constructor() { }
 
