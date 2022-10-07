@@ -10,6 +10,7 @@
  <textarea #descricao></textarea>
 </div>
 
+
 <div *ngIf="!estudante.aprovado" [class.red] = "!estudante.aprovado">
   O aluno está REPROVADO!<button (click) = "descricao2.focus()">Foco!</button><br>
   <textarea #descricao2></textarea>
