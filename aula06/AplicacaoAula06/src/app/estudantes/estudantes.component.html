@@ -7,10 +7,10 @@
 
 <div *ngIf="estudante.aprovado" [class.ligth] = "estudante.aprovado">
  O aluno está APROVADO!<button>Foco!</button><br>
- <textarea></textarea>
+ <textarea #descricao></textarea>
 </div>
 
 <div *ngIf="!estudante.aprovado" [class.red] = "!estudante.aprovado">
   O aluno está REPROVADO!<button>Foco!</button><br>
-  <textarea></textarea>
+  <textarea #descricao2></textarea>
  </div>
