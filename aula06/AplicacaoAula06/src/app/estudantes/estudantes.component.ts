@@ -15,4 +15,8 @@ export class EstudantesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  exibir(){
+    console.log(`Estudant : ${this.estudante.nome}`);
+  }
+
 }

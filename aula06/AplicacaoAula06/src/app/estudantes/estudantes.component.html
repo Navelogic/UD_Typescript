@@ -1,14 +1,16 @@
 <div *ngIf="!estudante.aprovado">
-  {{estudante.nome}}
+  <a href="#" (click)="exibir()">{{estudante.nome}}</a> 
 </div>
 <div *ngIf="estudante.aprovado">
-  {{estudante.nome}}
+  <a href="#" (click)="exibir()">{{estudante.nome}}</a> 
 </div>
 
 <div *ngIf="estudante.aprovado" [class.ligth] = "estudante.aprovado">
- O aluno está APROVADO!
+ O aluno está APROVADO!<button>Foco!</button><br>
+ <textarea></textarea>
 </div>
 
 <div *ngIf="!estudante.aprovado" [class.red] = "!estudante.aprovado">
-  O aluno está REPROVADO!
+  O aluno está REPROVADO!<button>Foco!</button><br>
+  <textarea></textarea>
  </div>
