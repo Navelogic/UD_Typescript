@@ -6,11 +6,11 @@
 </div>
 
 <div *ngIf="estudante.aprovado" [class.ligth] = "estudante.aprovado">
- O aluno está APROVADO!<button>Foco!</button><br>
+ O aluno está APROVADO!<button (click) = "descricao.focus()">Foco!</button><br>
  <textarea #descricao></textarea>
 </div>
 
 <div *ngIf="!estudante.aprovado" [class.red] = "!estudante.aprovado">
-  O aluno está REPROVADO!<button>Foco!</button><br>
+  O aluno está REPROVADO!<button (click) = "descricao2.focus()">Foco!</button><br>
   <textarea #descricao2></textarea>
  </div>
