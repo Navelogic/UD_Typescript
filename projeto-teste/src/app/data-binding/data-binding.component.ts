@@ -21,7 +21,7 @@ export class DataBindingComponent implements OnInit {
   }
 
   public alertaInfo(){
-    alert("Deu Bom!")
+    alert("Deu bom");
   }
 
 }
