@@ -6,6 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { ROUTES } from './app.routes';
+import { RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { SobreComponent } from './sobre/sobre.component';
     SobreComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
