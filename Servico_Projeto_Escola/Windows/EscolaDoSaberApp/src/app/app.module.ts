@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { HistoricoComponent } from './historico/historico.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { AlteracaoComponent } from './alteracao/alteracao.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     NavbarComponent,
     HomeComponent,
     HistoricoComponent,
-    CadastroComponent
+    CadastroComponent,
+    AlteracaoComponent
   ],
   imports: [
     BrowserModule
