@@ -11,6 +11,7 @@ import { HistoricoComponent } from './historico/historico.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { AlteracaoComponent } from './alteracao/alteracao.component';
 import { CadastroUserComponent } from './cadastro-user/cadastro-user.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CadastroUserComponent } from './cadastro-user/cadastro-user.component';
     HistoricoComponent,
     CadastroComponent,
     AlteracaoComponent,
-    CadastroUserComponent
+    CadastroUserComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule
