@@ -14,6 +14,7 @@ import { CadastroUserComponent } from './cadastro-user/cadastro-user.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { ReceberComponent } from './receber/receber.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ROUTES } from './app.routes';
     CadastroComponent,
     AlteracaoComponent,
     CadastroUserComponent,
-    SobreComponent
+    SobreComponent,
+    ReceberComponent
   ],
   imports: [
     BrowserModule,
