@@ -8,6 +8,7 @@ import { HeroComponent } from './hero/hero.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { HistoricoComponent } from './historico/historico.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HistoricoComponent } from './historico/historico.component';
     HeroComponent,
     NavbarComponent,
     HomeComponent,
-    HistoricoComponent
+    HistoricoComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule
