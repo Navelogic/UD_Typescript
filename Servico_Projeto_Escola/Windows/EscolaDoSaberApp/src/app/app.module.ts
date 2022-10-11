@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { HistoricoComponent } from './historico/historico.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { AlteracaoComponent } from './alteracao/alteracao.component';
+import { CadastroUserComponent } from './cadastro-user/cadastro-user.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AlteracaoComponent } from './alteracao/alteracao.component';
     HomeComponent,
     HistoricoComponent,
     CadastroComponent,
-    AlteracaoComponent
+    AlteracaoComponent,
+    CadastroUserComponent
   ],
   imports: [
     BrowserModule
