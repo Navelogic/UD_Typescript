@@ -8,6 +8,7 @@ import { HeroComponent } from './hero/hero.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ROUTES } from './app.routes';
 import { RouterModule} from '@angular/router';
+import { CategoriasComponent } from './categorias/categorias.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule} from '@angular/router';
     NavbarComponent,
     FooterComponent,
     HeroComponent,
-    SobreComponent
+    SobreComponent,
+    CategoriasComponent
   ],
   imports: [
     BrowserModule,
