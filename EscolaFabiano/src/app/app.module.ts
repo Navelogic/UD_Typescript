@@ -8,6 +8,7 @@ import { HeroComponent } from './hero/hero.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ListaComponent } from './lista/lista.component';
 import { AlunosComponent } from './alunos/alunos.component';
+import { AlunoComponent } from './alunos/aluno/aluno.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AlunosComponent } from './alunos/alunos.component';
     HeroComponent,
     SobreComponent,
     ListaComponent,
-    AlunosComponent
+    AlunosComponent,
+    AlunoComponent
   ],
   imports: [
     BrowserModule,
