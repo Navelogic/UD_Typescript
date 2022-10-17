@@ -1,3 +1,7 @@
 {
-  
+  "alunos": [
+    {"id": 1, "matricula": "121021018A", "nome": "Deborah Baldino Marte", "idade": 20, "turma": "LP-3"},
+    {"id": 2, "matricula": "121021018B", "nome": "Arian Weslley dos Santos do Carmo", "idade": 20, "turma": "LP-3"},
+    {"id": 3, "matricula": "121021018C", "nome": "Gatinha", "idade": 86, "turma": "LP-3"}
+  ]
 }
