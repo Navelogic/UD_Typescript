@@ -1,0 +1,8 @@
+{
+  "categorias": [
+    {"id": 1, "titulo": "Terror", "image": "../../assets/images/"},
+    {"id": 2, "titulo": "Aventura", "image": "../../assets"},
+    {"id": 3, "titulo": "Horror", "image": "../../assets"},
+    {"id": 4, "titulo": "Fantasia", "image": "../../assets"}
+  ]
+}
