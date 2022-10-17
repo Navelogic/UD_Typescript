@@ -1,4 +1,3 @@
-
 import { CINEMA_API } from "../app.api";
 import { HttpClient } from "@angular/common/http";
 import { Categoria } from "./categoria/categoria.model";
