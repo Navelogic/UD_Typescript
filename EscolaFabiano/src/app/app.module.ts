@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routes';
 
 import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
@@ -14,7 +16,8 @@ import { ListaComponent } from './lista/lista.component';
     ListaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [],
   bootstrap: [AppComponent]
