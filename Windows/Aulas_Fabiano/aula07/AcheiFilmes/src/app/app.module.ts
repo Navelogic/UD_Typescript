@@ -9,6 +9,9 @@ import { SobreComponent } from './sobre/sobre.component';
 import { ROUTES } from './app.routes';
 import { RouterModule} from '@angular/router';
 import { CategoriasComponent } from './categorias/categorias.component';
+import { CategoriaComponent } from './categorias/categoria/categoria.component';
+import { CategoriasService } from './categorias/categorias.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,13 +20,15 @@ import { CategoriasComponent } from './categorias/categorias.component';
     FooterComponent,
     HeroComponent,
     SobreComponent,
-    CategoriasComponent
+    CategoriasComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [CategoriasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
