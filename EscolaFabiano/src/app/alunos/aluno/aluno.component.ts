@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Aluno } from './aluno.model';
 
 @Component({
   selector: 'EF-aluno',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./aluno.component.css']
 })
 export class AlunoComponent implements OnInit {
+  @Input() aluno!: Aluno;
 
   constructor() { }
 

@@ -1,0 +1,1 @@
+export const ESCOLA_FABIANO_API = 'https://localhost:3000';
