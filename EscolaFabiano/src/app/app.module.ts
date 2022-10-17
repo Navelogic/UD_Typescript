@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ListaComponent } from './lista/lista.component';
+import { AlunosComponent } from './alunos/alunos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
     SobreComponent,
-    ListaComponent
+    ListaComponent,
+    AlunosComponent
   ],
   imports: [
     BrowserModule,
