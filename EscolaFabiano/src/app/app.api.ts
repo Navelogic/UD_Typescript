@@ -1,1 +1,1 @@
-export const ESCOLA_FABIANO_API = 'https://localhost:3000';
+export const ESCOLA_FABIANO_API = 'http://localhost:3000';

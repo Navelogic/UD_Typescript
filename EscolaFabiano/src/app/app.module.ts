@@ -10,6 +10,8 @@ import { ListaComponent } from './lista/lista.component';
 import { AlunosComponent } from './alunos/alunos.component';
 import { AlunoComponent } from './alunos/aluno/aluno.component';
 import { BotaoListaComponent } from './botao-lista/botao-lista.component';
+import { AlunosService } from './alunos/alunos.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,9 +25,10 @@ import { BotaoListaComponent } from './botao-lista/botao-lista.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AlunosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

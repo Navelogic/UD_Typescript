@@ -12,7 +12,7 @@ export class AlunosService {
   constructor(private http: HttpClient) {}
 
   listarAlunos(): Observable<Aluno[]> {
-    return this.http.get<Aluno[]>(`${ESCOLA_FABIANO_API}/aluno/listar`).pipe(catchError(ErrorHandler.handleError));
+    return this.http.get<Aluno[]>(`${ESCOLA_FABIANO_API}/alunos`).pipe(catchError(ErrorHandler.handleError));
   }
 
 }
