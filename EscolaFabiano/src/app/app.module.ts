@@ -9,6 +9,7 @@ import { SobreComponent } from './sobre/sobre.component';
 import { ListaComponent } from './lista/lista.component';
 import { AlunosComponent } from './alunos/alunos.component';
 import { AlunoComponent } from './alunos/aluno/aluno.component';
+import { BotaoListaComponent } from './botao-lista/botao-lista.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AlunoComponent } from './alunos/aluno/aluno.component';
     SobreComponent,
     ListaComponent,
     AlunosComponent,
-    AlunoComponent
+    AlunoComponent,
+    BotaoListaComponent
   ],
   imports: [
     BrowserModule,
