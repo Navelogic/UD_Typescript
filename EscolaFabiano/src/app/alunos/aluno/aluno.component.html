@@ -1,4 +1,11 @@
-<div>
-  <h1>Teste</h1>
-  {{aluno.nome}}
-</div>
+<ul class="space-y-4 list-disc list-inside">
+  <li>
+      {{aluno.nome}}
+      <ol class="pl-5 mt-2 space-y-1 list-decimal list-inside">
+          <p>Matricula: {{aluno.matricula}}</p>
+          <p>Idade: {{aluno.idade}} anos</p>
+          <p>Turma: {{aluno.turma}}</p>
+      </ol>
+  </li>
+</ul>
+<br>

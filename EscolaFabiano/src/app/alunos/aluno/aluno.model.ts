@@ -3,5 +3,5 @@ export interface Aluno{
   matricula: string;
   nome: string;
   idade: number;
-  turmna: string;
+  turma: string;
 }
