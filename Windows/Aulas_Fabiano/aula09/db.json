@@ -1,0 +1,13 @@
+{
+    "categorias": [
+        {"id": 1, "titulo": "Terror", "imagePath": "../../assets/images/dracula.png", "link": "/teror"},
+        {"id": 2, "titulo": "Aventura", "imagePath": "../../assets/images/climbing.png", "link": "./src/app/categorias/terror/terror.component.html"},
+        {"id": 3, "titulo": "Romance", "imagePath": "../../assets/images/romance.png", "link": "./src/app/categorias/terror/terror.component.html"},
+        {"id": 5, "titulo": "Heróis", "imagePath": "../../assets/images/superhero.png", "link": "./src/app/categorias/terror/terror.component.html"}
+    ],
+    "filmes": [
+        {"id": 1, "titulo": "Rogai por nós", "duracao": "1h 39m", "ano": "2021", "indicacao": "14", "imagePath": "../../assets/images/movies/rogai.jpg", "categoriaId": 1},
+        {"id": 2, "titulo": "Vingadores - Ultimato", "duracao": "2h 15m", "ano": "2019",  "indicacao": "14", "imagePath": "../../assets/images/movies/vingadores.jpg","categoriaId": 5},
+        {"id": 3, "titulo": "O Homem-Invisivel", "duracao": "2h 15m", "ano": "2020",  "indicacao": "14", "imagePath": "../../assets/images/movies/invisivel.jpg","categoriaId": 1}
+    ]
+}
